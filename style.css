@@ -1,0 +1,71 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* Styles spécifiques pour la section header contenant les liens */
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px;
+    height: 60px;
+  }
+  
+  .mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px
+  }
+  
+  /* Style du logo Gmail */
+  .gb_B {
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4285f4;
+  }
+  
+  /* Style pour le logo d'utilisateur */
+  .gb_n {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  /* Style pour le logo Google */
+  img {
+    display: block;
+    margin: 50px auto; 
+  
+  /* Style pour la barre de recherche */
+  input[type="search"] {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Style pour la section footer contenant les liens */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour les liens du footer */
+  footer a {
+    color: #70757a;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
